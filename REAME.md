@@ -1,4 +1,5 @@
 # CUDA CubeAttack framework #
+
 This is an implementation of a CUDA CubeAttack framework. The code is
 copied from my old Master's thesis svn repo (so certain things might
 be missing -- if you find that this is the case, please let me know)
