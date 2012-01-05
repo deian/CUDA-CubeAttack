@@ -1,0 +1,10 @@
+
+CFLAGS=-Wall -O3 -ansi -pedantic -DECRYPT_API="ecrypt-sync.h"
+
+test: test.o ecrypt-sync.o trivium.o
+
+test.o: ecrypt-sync.h
+ecrypt-sync.o: ecrypt-sync.h
+trivium.o: ecrypt-sync.h
+
+
